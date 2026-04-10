@@ -19,8 +19,6 @@ numpy==1.23.5
 
 scikit_learn==1.2.1
 
-scikit_learn==1.2.0
-
 torch==1.13.1
 
 torch_cluster==1.6.0

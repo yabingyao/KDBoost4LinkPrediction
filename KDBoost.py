@@ -1,11 +1,3 @@
-# -*- coding: utf-8 -*-
-# Converted from notebook: KDBoost-4(1).ipynb
-
-# In[1]:
-# -*- coding: utf-8 -*-
-# Full script: Graph2Feat link prediction (GNN/MLP/KD+Projector) + AUC/AUPR
-# Evaluation uses only AUC and AUPR on the validation and test sets
-
 import time
 import numpy as np
 import torch

@@ -42,10 +42,13 @@ All experiments use a fixed random seed and validation split; the teacher GNN is
 If you find **KDBoost** useful in your research, please consider citing the following paper:
 ```bibtex
 @article{yao2026boosting,
-  title={Boosting feature distillation for link prediction via graph neural architecture search},
-  author = {Yabing Yao and Rong Ye and Zhiheng Mao and Yang Liu and Zhenzhen Cao and Wei Zhou and Jianxin Tang and Fuzhong Nian},
-  journal={Applied Soft Computing},
-  pages={115133},
-  year={2026},
-  publisher={Elsevier}
+title = {Boosting feature distillation for link prediction via graph neural architecture search},
+journal = {Applied Soft Computing},
+volume = {197},
+pages = {115133},
+year = {2026},
+issn = {1568-4946},
+doi = {https://doi.org/10.1016/j.asoc.2026.115133},
+url = {https://www.sciencedirect.com/science/article/pii/S1568494626005818},
+author = {Yabing Yao and Rong Ye and Zhiheng Mao and Yang Liu and Zhenzhen Cao and Wei Zhou and Jianxin Tang and Fuzhong Nian}
 }

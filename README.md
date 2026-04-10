@@ -1,4 +1,6 @@
 # KDBoost4LinkPrediction
+Yao Y, Ye R, Mao Z, et al. [Boosting feature distillation for link prediction via graph neural architecture search](https://doi.org/10.1016/j.asoc.2026.115133)[J]. Applied Soft Computing, 2026: 115133.
+
 ## Abstract
 Link prediction is crucial for understanding complex network structures and evolutionary mechanisms. In recent years, feature-based knowledge distillation (KD) has shown strong potential for improving link prediction performance. However, its reliance on a fixed GNN teacher model limits its adaptability across different networks. Moreover, direct feature matching may cause the student model to overfit. To address these issues, we propose KDBoost, a framework that enhances feature-based \underline{KD} to \underline{Boost} the performance of link prediction. KDBoost leverages Graph Neural Architecture Search (GNAS) to automatically select the optimal teacher model for each network. In addition, it introduces a Projector module to transforms student features, thereby alleviating overfitting and improving generalization. Experiments on eight benchmark networks demonstrate that KDBoost achieves average improvements of 7.6\%, 7.4\%, and 10.5\% in AUC, AUPR, and F1-score, respectively, over traditional feature distillation methods. Compared with recent GNN distillation methods, KDBoost further improves these metrics by 3.4\%, 3.1\%, and 4.9\%, indicating its effectiveness for accurate and generalizable link prediction. Our code is available at https://github.com/yabingyao/KDBoost4LinkPrediction.git.
 
@@ -34,3 +36,16 @@ All experiments use a fixed random seed and validation split; the teacher GNN is
 
 ```python KDBooxt.py```
 
+
+## Citing
+
+If you find **KDBoost** useful in your research, please consider citing the following paper:
+```bibtex
+@article{yao2026boosting,
+  title={Boosting feature distillation for link prediction via graph neural architecture search},
+  author={Yao, Yabing and Ye, Rong and Mao, Zhiheng and Liu, Yang and Cao, Zhenzhen and Zhou, Wei and Tang, Jianxin and Nian, Fuzhong},
+  journal={Applied Soft Computing},
+  pages={115133},
+  year={2026},
+  publisher={Elsevier}
+}

@@ -43,7 +43,7 @@ If you find **KDBoost** useful in your research, please consider citing the foll
 ```bibtex
 @article{yao2026boosting,
   title={Boosting feature distillation for link prediction via graph neural architecture search},
-  author={Yao, Yabing and Ye, Rong and Mao, Zhiheng and Liu, Yang and Cao, Zhenzhen and Zhou, Wei and Tang, Jianxin and Nian, Fuzhong},
+  author = {Yabing Yao and Rong Ye and Zhiheng Mao and Yang Liu and Zhenzhen Cao and Wei Zhou and Jianxin Tang and Fuzhong Nian},
   journal={Applied Soft Computing},
   pages={115133},
   year={2026},
